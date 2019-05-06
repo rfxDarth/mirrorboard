@@ -62,7 +62,7 @@ So, basically, a third of typing speed for half of the hands used. Not as bad as
 
 Rather, it has an option to use SGCAPS. 
 
-For example "hello world" would be 
+For example "hello world" would be typed like
 
 "Caps - G - E - Caps - S - Caps - S - Caps - W - Space - W - Caps - W - R - Caps - S - D"
 
@@ -71,6 +71,4 @@ For example "hello world" would be
 
 - Map [BAT Keyboard Layout](http://xahlee.info/kbd/i3/BAT_Keyboard_guide_right_cae21.png) to QWERTY?
 
-- Assuming there is no gap between number keys and function keys, it might be possible to rearrange keys around R button
-
-
+- Assuming there is no gap between number keys and function keys, it might be possible to rearrange keys around E button, for example [like this](https://i.imgur.com/KDZqWfR.png). No idea if that would ever work.
