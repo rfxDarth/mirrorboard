@@ -58,7 +58,13 @@ So, basically, a third of typing speed for half of the hands used. Not as bad as
 
 ## Native layout rather than intercepting keypresses:
 
-[Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) allows to compile dll's with custom layout, but it does not appear to have an option to use Caps as a modifier key. Rather, it has an option to use SGCAPS - "hello world" would be "Caps - G - E - Caps - S - Caps - S - Caps - W - Space - W - Caps - W - R - Caps - S - D"
+[Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) allows to compile dll's with custom layout, but it does not appear to have an option to use Caps as a modifier key.
+
+Rather, it has an option to use SGCAPS. 
+
+For example "hello world" would be 
+
+"Caps - G - E - Caps - S - Caps - S - Caps - W - Space - W - Caps - W - R - Caps - S - D"
 
 
 ## Other one hand input methods
