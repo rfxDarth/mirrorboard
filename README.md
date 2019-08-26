@@ -9,20 +9,20 @@ Unlike [Figaw's version](http://variable.dk/blog/159-mirrorboard-for-windows-a-o
 Same as XKCD, but:
  - also with reversed numbers and function keys.
  - arrow keys on Caps+LAlt+[WASD]
- -  \[, \] and \[ : \] on Caps+LAlt+123 respectively
+ - Minus, plus/equals are on Caps+LAlt+[123]
+ - Brackets and colon are on Caps+LAlt+[QEF]
 
 ## Test results:
-*to be updated as i get used to it*
 
 Normal typing speed:  
 
-- Average: 278CPM (55WPM) 
-- Top:     354CPM(70WPM)
+- Average: 323CPM (64WPM) 
+- Top:     409CPM (81WPM)
 - Errors:  4.5%
 
 Left hand only:
-- Average: 90CPM (18WPM)
-- Top:     106CPM (21WPM)
+- Average: 123CPM (24WPM)
+- Top:     167CPM (33WPM)
 - Errors:  10.45%
 
 So, basically, a third of typing speed for half of the hands used. Not as bad as i expected, although, it's very painful to type so slow.
@@ -31,9 +31,9 @@ So, basically, a third of typing speed for half of the hands used. Not as bad as
 
 - Letters N and H are used very frequently and are awkward to reach
 
-- Plus, minus and colon keys are out of reach
+- ~~Curly braces are untype-able~~ Fixed. 
 
-- Curly braces are untype-able
+- ~~Plus, minus and colon keys are out of reach~~ Fixed. 
 
 - IDEA IDE's unsets caps after key presses, so it only works once
 
