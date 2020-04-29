@@ -16,14 +16,14 @@ Same as XKCD, but:
 
 Normal typing speed:  
 
-- Average: 323CPM (64WPM) 
-- Top:     409CPM (81WPM)
-- Errors:  4.5%
+- Average: 430 CPM (86 WPM) 
+- Top:     507 CPM (101 WPM)
+- Errors:  1.5%
 
 Left hand only:
-- Average: 123CPM (24WPM)
-- Top:     167CPM (33WPM)
-- Errors:  10.45%
+- Average: 182 CPM (36 WPM)
+- Top:     226 CPM (45 WPM)
+- Errors:  5.9%
 
 So, basically, a third of typing speed for half of the hands used. Not as bad as i expected, although, it's very painful to type so slow.
 
