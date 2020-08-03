@@ -1,0 +1,143 @@
+// US/RU combo file
+// put this file in /usr/share/X11/xkb/symbols/mb
+// then run `setxkbmap mb us` or `setxkbmap mb ru`
+
+default  partial alphanumeric_keys
+xkb_symbols "us" {
+    name[Group1]= "English (Mirrorboard)";
+    key.type[Group1] = "EIGHT_LEVEL";
+
+    key <CAPS> {
+      type[Group1]="ONE_LEVEL",
+      symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+    key <LALT> {
+      type="EIGHT_LEVEL",
+      symbols = [ Alt_L,Alt_L,ISO_Level5_Shift ]
+    };
+    include "level3(modifier_mapping)"
+    include "level5(modifier_mapping)"
+
+    key <SPCE> {        [     space,            space,  Return,         Return          ]       };
+    key <TLDE> {        [     grave,       asciitilde,  BackSpace,      BackSpace       ]       };
+
+    key <AD01> {	[	  q,	Q,	p,	P,	q,	q,	bracketleft,	braceleft	]	};
+    key <AD02> {	[	  w,	W,	o,	O,	w,	w,	Up,		Up		]	};
+    key <AD03> {	[	  e,	E,	i,	I,	e,	e,	bracketright,	braceright	]	};
+    key <AD04> {	[	  r,	R,	u,	U	]	};
+    key <AD05> {	[	  t,	T,	y,	Y		]	};
+    key <AD06> {	[	  y,	Y,	t,	T		]	};
+    key <AD07> {	[	  u,	U,	r,	R		]	};
+    key <AD08> {	[	  i,	I,	e,	E		]	};
+    key <AD09> {	[	  o,	O,	w,	W		]	};
+    key <AD10> {	[	  p,	P,	q,	Q		]	};
+    key <AD11> {	[ bracketleft,	braceleft	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
+
+    key <AC01> {	[	  a,	A,	 apostrophe,	quotedbl,	a,	a,	Left,	Left	]	};
+    key <AC02> {	[	  s,	S,	 l,	L,	s,	s,	Down,	Down			]	};
+    key <AC03> {	[	  d,	D,	 k,	K,	d,	d,	Right,	Right			]	};
+    key <AC04> {	[	  f,	F,	 j,	J,	f,	f,	semicolon,	colon		]	};
+    key <AC05> {	[	  g,	G,	 h,	H		]	};
+    key <AC06> {	[	  h,	H, 	 g,	G		]	};
+    key <AC07> {	[	  j,	J,	 f,	F		]	};
+    key <AC08> {	[	  k,	K,	 d,	D		]	};
+    key <AC09> {	[	  l,	L,	 s,	S		]	};
+    key <AC10> {	[ semicolon,	colon	          	]	};
+    key <AC11> {	[ apostrophe,	quotedbl,a,	A	]	};
+
+    key <AB01> {	[	  z,	Z,		slash,	question	]	};
+    key <AB02> {	[	  x,	X,		period,	greater		]	};
+    key <AB03> {	[	  c,	C,		comma,	less		]	};
+    key <AB04> {	[	  v,	V,		m,	M		]	};
+    key <AB05> {	[	  b,	B,		n,	N		]	};
+    key <AB06> {	[	  n,	N,		b,	B		]	};
+    key <AB07> {	[	  m,	M,		v,	V		]	};
+    key <AB08> {	[     comma,	less,		c,	C		]	};
+    key <AB09> {	[    period,	greater,	x,	X		]	};
+    key <AB10> {	[     slash,	question,	z,	Z		]	};
+
+    key <AE01> {[ 1,                 exclam,            0,                 parenright,        1,                 exclam,            minus,             underscore           ]};
+    key <AE02> {[ 2,                 at,                9,                 parenleft,         2,                 at,                equal,             plus                 ]};
+    key <AE03> {[ 3,                 numbersign,        8,                 asterisk,          3,                 numbersign,        backslash,         bar                  ]};
+    key <AE04> {[ 4,                 dollar,            7,                 ampersand,         4,                 dollar,            4,                 dollar               ]};
+    key <AE05> {[ 5,                 percent,           6,                 asciicircum,       5,                 percent,           5,                 percent              ]};
+    key <AE06> {[ 6,                 asciicircum,       5,                 percent,           6,                 asciicircum,       6,                 asciicircum          ]};
+    key <AE07> {[ 7,                 ampersand,         4,                 dollar,            7,                 ampersand,         7,                 ampersand            ]};
+    key <AE08> {[ 8,                 asterisk,          3,                 numbersign,        8,                 asterisk,          8,                 asterisk             ]};
+    key <AE09> {[ 9,                 parenleft,         2,                 at,                9,                 parenleft,         9,                 parenleft	    ]};
+    key <AE10> {[ 0,                 parenright,        1,                 exclam,            0,                 parenright,        0,                 parenright           ]};
+    key <AE11> {[ minus,             underscore,        minus,             underscore,        minus,             underscore,        minus,             underscore           ]};
+    key <AE12> {[ equal,             plus,              equal,             plus,              equal,             plus,              equal,             plus                 ]};
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "ru" {
+    name[Group1]= "Russian (Mirrorboard)";
+    key.type[Group1] = "EIGHT_LEVEL";
+
+    key <CAPS> {
+      type[Group1]="ONE_LEVEL",
+      symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+    key <LALT> {
+      type="EIGHT_LEVEL", 
+      symbols = [ Alt_L,Alt_L,ISO_Level5_Shift ]
+    };
+    include "level3(modifier_mapping)"
+    include "level5(modifier_mapping)"
+ 
+//                Normal             Shift              Caps               Caps+Shift         Alt                Alt+Shift           Caps+Alt           Caps+Alt+Shift      //
+    key <SPCE> {[ space,             space,             Return,            Return,            space,             space,              Return,            Return              ]};
+    key <TLDE> {[ Cyrillic_io,       Cyrillic_IO,       BackSpace,         BackSpace,         Cyrillic_io,       Cyrillic_IO,        BackSpace,         BackSpace           ]};
+
+    key <AD01> {[ Cyrillic_shorti,   Cyrillic_SHORTI,   Cyrillic_ze,       Cyrillic_ZE,       Cyrillic_ha,       Cyrillic_HA,        Cyrillic_ha,       Cyrillic_HA         ]};
+    key <AD02> {[ Cyrillic_tse,      Cyrillic_TSE,      Cyrillic_shcha,    Cyrillic_SHCHA,    Cyrillic_tse,      Cyrillic_TSE,       Up,                Up                  ]};
+    key <AD03> {[ Cyrillic_u,        Cyrillic_U,        Cyrillic_sha,      Cyrillic_SHA,      Cyrillic_u,        Cyrillic_U,         Cyrillic_hardsign, Cyrillic_HARDSIGN   ]};
+    key <AD04> {[ Cyrillic_ka,       Cyrillic_KA,       Cyrillic_ghe,      Cyrillic_GHE,      Cyrillic_ka,       Cyrillic_KA,        Cyrillic_ghe,      Cyrillic_GHE        ]};
+    key <AD05> {[ Cyrillic_ie,       Cyrillic_IE,       Cyrillic_en,       Cyrillic_EN,       Cyrillic_ie,       Cyrillic_IE,        Cyrillic_en,       Cyrillic_EN         ]};
+    key <AD06> {[ Cyrillic_en,       Cyrillic_EN,       Cyrillic_ie,       Cyrillic_IE,       Cyrillic_en,       Cyrillic_EN,        Cyrillic_ie,       Cyrillic_IE         ]};
+    key <AD07> {[ Cyrillic_ghe,      Cyrillic_GHE,      Cyrillic_ka,       Cyrillic_KA,       Cyrillic_ghe,      Cyrillic_GHE,       Cyrillic_ka,       Cyrillic_KA         ]};
+    key <AD08> {[ Cyrillic_sha,      Cyrillic_SHA,      Cyrillic_u,        Cyrillic_U,        Cyrillic_sha,      Cyrillic_SHA,       Cyrillic_u,        Cyrillic_U          ]};
+    key <AD09> {[ Cyrillic_shcha,    Cyrillic_SHCHA,    Cyrillic_tse,      Cyrillic_TSE,      Cyrillic_shcha,    Cyrillic_SHCHA,     Cyrillic_tse,      Cyrillic_TSE        ]};
+    key <AD10> {[ Cyrillic_ze,       Cyrillic_ZE,       Cyrillic_shorti,   Cyrillic_SHORTI,   Cyrillic_ze,       Cyrillic_ZE,        Cyrillic_shorti,   Cyrillic_SHORTI     ]};
+    key <AD11> {[ Cyrillic_ha,       Cyrillic_HA,       Cyrillic_ha,       Cyrillic_HA,       Cyrillic_ha,       Cyrillic_HA,        Cyrillic_ha,       Cyrillic_HA         ]};
+    key <AD12> {[ Cyrillic_hardsign, Cyrillic_HARDSIGN, Cyrillic_hardsign, Cyrillic_HARDSIGN, Cyrillic_hardsign, Cyrillic_HARDSIGN,  Cyrillic_hardsign, Cyrillic_HARDSIGN   ]};
+
+    key <AC01> {[ Cyrillic_ef,       Cyrillic_EF,       Cyrillic_e,        Cyrillic_E,        Cyrillic_ef,       Cyrillic_EF,       Left,              Left                 ]};
+    key <AC02> {[ Cyrillic_yeru,     Cyrillic_YERU,     Cyrillic_de,       Cyrillic_DE,       Cyrillic_yeru,     Cyrillic_YERU,     Down,              Down                 ]};
+    key <AC03> {[ Cyrillic_ve,       Cyrillic_VE,       Cyrillic_el,       Cyrillic_EL,       Cyrillic_ve,       Cyrillic_VE,       Right,             Right                ]};
+    key <AC04> {[ Cyrillic_a,        Cyrillic_A,        Cyrillic_o,        Cyrillic_O,        Cyrillic_a,        Cyrillic_A,        Cyrillic_zhe,      Cyrillic_ZHE         ]};
+    key <AC05> {[ Cyrillic_pe,       Cyrillic_PE,       Cyrillic_er,       Cyrillic_ER,       Cyrillic_pe,       Cyrillic_PE,       Cyrillic_er,       Cyrillic_ER          ]};
+    key <AC06> {[ Cyrillic_er,       Cyrillic_ER,       Cyrillic_pe,       Cyrillic_PE,       Cyrillic_er,       Cyrillic_ER,       Cyrillic_pe,       Cyrillic_PE          ]};
+    key <AC07> {[ Cyrillic_o,        Cyrillic_O,        Cyrillic_a,        Cyrillic_A,        Cyrillic_o,        Cyrillic_O,        Cyrillic_a,        Cyrillic_A           ]};
+    key <AC08> {[ Cyrillic_el,       Cyrillic_EL,       Cyrillic_ve,       Cyrillic_VE,       Cyrillic_el,       Cyrillic_EL,       Cyrillic_ve,       Cyrillic_VE          ]};
+    key <AC09> {[ Cyrillic_de,       Cyrillic_DE,       Cyrillic_yeru,     Cyrillic_YERU,     Cyrillic_de,       Cyrillic_DE,       Cyrillic_yeru,     Cyrillic_YERU        ]};
+    key <AC10> {[ Cyrillic_zhe,      Cyrillic_ZHE,      Cyrillic_zhe,      Cyrillic_ZHE,      Cyrillic_zhe,      Cyrillic_ZHE,      Cyrillic_zhe,      Cyrillic_ZHE         ]};
+    key <AC11> {[ Cyrillic_e,        Cyrillic_E,        Cyrillic_ef,       Cyrillic_EF,       Cyrillic_e,        Cyrillic_E,        Cyrillic_ef,       Cyrillic_EF          ]};
+
+    key <AB01> {[ Cyrillic_ya,       Cyrillic_YA,       period,            comma,             Cyrillic_ya,       Cyrillic_YA,       period,            comma                ]};
+    key <AB02> {[ Cyrillic_che,      Cyrillic_CHE,      Cyrillic_yu,       Cyrillic_YU,       Cyrillic_che,      Cyrillic_CHE,      Cyrillic_yu,       Cyrillic_YU          ]};
+    key <AB03> {[ Cyrillic_es,       Cyrillic_ES,       Cyrillic_be,       Cyrillic_BE,       Cyrillic_es,       Cyrillic_ES,       Cyrillic_be,       Cyrillic_BE          ]};
+    key <AB04> {[ Cyrillic_em,       Cyrillic_EM,       Cyrillic_softsign, Cyrillic_SOFTSIGN, Cyrillic_em,       Cyrillic_EM,       Cyrillic_softsign, Cyrillic_SOFTSIGN    ]};
+    key <AB05> {[ Cyrillic_i,        Cyrillic_I,        Cyrillic_te,       Cyrillic_TE,       Cyrillic_i,        Cyrillic_I,        Cyrillic_te,       Cyrillic_TE          ]};
+    key <AB06> {[ Cyrillic_te,       Cyrillic_TE,       Cyrillic_i,        Cyrillic_I,        Cyrillic_te,       Cyrillic_TE,       Cyrillic_i,        Cyrillic_I           ]};
+    key <AB07> {[ Cyrillic_softsign, Cyrillic_SOFTSIGN, Cyrillic_em,       Cyrillic_EM,       Cyrillic_softsign, Cyrillic_SOFTSIGN, Cyrillic_em,       Cyrillic_EM          ]};
+    key <AB08> {[ Cyrillic_be,       Cyrillic_BE,       Cyrillic_es,       Cyrillic_ES,       Cyrillic_be,       Cyrillic_BE,       Cyrillic_es,       Cyrillic_ES          ]};
+    key <AB09> {[ Cyrillic_yu,       Cyrillic_YU,       Cyrillic_che,      Cyrillic_CHE,      Cyrillic_yu,       Cyrillic_YU,       Cyrillic_che,      Cyrillic_CHE         ]};
+    key <AB10> {[ period,            comma,             Cyrillic_ya,       Cyrillic_YA,       period,            comma,             Cyrillic_ya,       Cyrillic_YA          ]};
+
+    key <AE01> {[ 1,                 exclam,            0,                 parenright,        1,                 exclam,            minus,             underscore           ]};
+    key <AE02> {[ 2,                 quotedbl,          9,                 parenleft,         2,                 quotedbl,          equal,             plus                 ]};
+    key <AE03> {[ 3,                 numerosign,        8,                 asterisk,          3,                 numerosign,        backslash,         bar                  ]};
+    key <AE04> {[ 4,                 semicolon,         7,                 question,          4,                 semicolon,         4,                 dollar               ]};
+    key <AE05> {[ 5,                 percent,           6,                 colon,             5,                 percent,           5,                 percent              ]};
+    key <AE06> {[ 6,                 colon,             5,                 percent,           6,                 colon,             6,                 asciicircum          ]};
+    key <AE07> {[ 7,                 question,          4,                 semicolon,         7,                 question,          7,                 ampersand            ]};
+    key <AE08> {[ 8,                 asterisk,          3,                 numerosign,        8,                 asterisk,          8,                 asterisk             ]};
+    key <AE09> {[ 9,                 parenleft,         2,                 quotedbl,          9,                 parenleft,         9,                 parenleft	    ]};
+    key <AE10> {[ 0,                 parenright,        1,                 exclam,            0,                 parenright,        0,                 parenright           ]};
+    key <AE11> {[ minus,             underscore,        minus,             underscore,        minus,             underscore,        minus,             underscore           ]};
+    key <AE12> {[ equal,             plus,              equal,             plus,              equal,             plus,              equal,             plus                 ]};
+};
